@@ -233,4 +233,12 @@ button.navbar-toggler, .navbar-toggler-icon {
     letter-spacing: .1em;
     text-transform: uppercase;
   }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
 }

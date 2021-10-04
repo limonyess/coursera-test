@@ -1,6 +1,6 @@
 body {
   color: #900C3F;
-  background-color: #0F021A;
+  background-color: #000240;
   font-family: 'Rubik Beastly', cursive;
   font-family: 'Monoton', cursive;
   font-family: 'Aclonica', sans-serif;
@@ -42,7 +42,6 @@ div {
 
 .h:hover {
   background-color: #DAF7A6;
-  background-color: #FFC300;
   cursor: pointer;
 }
 

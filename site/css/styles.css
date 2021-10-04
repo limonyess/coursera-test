@@ -1,7 +1,14 @@
 body {
   color: #900C3F;
-  background-color: #DAF7A6;
+  background-color: #0F021A;
   font-family: 'Rubik Beastly', cursive;
+  font-family: 'Monoton', cursive;
+  font-family: 'Aclonica', sans-serif;
+  
+  font-family: 'Gabriela', serif;
+  font-family: 'New Rocker', cursive;
+  font-family: 'Ewert', cursive;
+  font-family: 'Rye', cursive;
 }
 
 a {
@@ -14,13 +21,13 @@ a:hover {
 
 h1 {
   font-size: 8em;
-  color: black;
+  color: #C70039;
   margin: 0.5em;
 }
 
 p {
   font-size: 4em;
-  color: C70039;
+  color: #900C3F;
 }
 
 div {

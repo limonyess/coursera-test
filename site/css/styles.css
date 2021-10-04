@@ -40,7 +40,11 @@ div {
   font-size: 10em;
 }
 
-
+.h:hover {
+  background-color: #DAF7A6;
+  background-color: #FFC300;
+  cursor: pointer;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {

@@ -4,13 +4,8 @@ html {
 
 body {
   color: #0A111C;
-  font-family: 'Rye', cursive;
-  font-family: 'Ewert', cursive;
-  font-family: 'Aclonica', sans-serif;
-  font-family: 'New Rocker', cursive;
-  font-family: 'Monoton', cursive;
-  font-family: 'Rubik Beastly', cursive;
-  font-family: 'Gabriela', serif;
+  font-family: 'Suez One', serif;
+  font-family: 'Megrim', cursive;
   height: 100%;
 }
 
@@ -26,6 +21,7 @@ body {
 
 a {
   text-decoration: none;
+  padding: 50px 0 50px 0;
 }
 
 a:hover {
@@ -35,8 +31,8 @@ a:hover {
 h1 {
   font-size: 4em;
   color: #E7FF7D;
-  color: #30231A;
   color: #0D6EFD;
+  color: #34C95A;
   margin: 0.5em;
 }
 
@@ -45,6 +41,7 @@ p {
   font-size: 4em;
   color: #E7FF7D;
   color: #0A111C;
+  color: #59C273;
 }
 
 div {
@@ -52,11 +49,12 @@ div {
 }
 
 .left {
-  background-color: white;
-  background-image: url("../images/logo-05.png");
-  background-color: darkseagreen;
-  background-size: 450px;
-  background-repeat: no-repeat;
+  background-color: #0D6EFD;
+  background-image: url("../images/logo-06.png");
+  background-color: #34C95A;
+  background-color: #59C273;
+  background-size: 150px;
+  background-repeat: repeat;
 }
 
 .right {
@@ -64,21 +62,29 @@ div {
 }
 
 .logo {
-  width: 100px;
+  width: 120px;
   height: 100px;
   font-size: 5em;
   color: #0A111C;
+  color: #FC0F03;
   text-align: start;
+}
+
+.fifty {
+  height: 20%;
 }
 
 .press {
   font-size: 5em;
-  color: #0A111C;
+  color: #FC2003;
+  color: #FC0F03;
+  margin: 0;
+  top: 150%;
 }
 
 .press:hover {
   text-decoration: none;
-  color: #23375C;
+  color: white;
   cursor: pointer;
 }
 
@@ -86,8 +92,6 @@ div {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .press {
-  width: 35%;
-  height: 100%;
   font-size: 5em;
   }
   h1 {
@@ -97,16 +101,14 @@ div {
   }
 
   p {
-    font-size: 4em;
+    font-size: 5em;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .press {
-  width: 40%;
-  height: 100%;
-  font-size: 4em;
+  font-size: 5em;
 }
   h1 {
   font-size: 4em;
@@ -122,13 +124,11 @@ div {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .press {
-  width: 50%;
-  height: 100%;
-  font-size: 3em;
+  font-size: 5em;
   }
   h1 {
-  font-size: 3em;
-  margin: 0.7em;
+  font-size: 3.2em;
+  margin: 0em;
   margin-top: 0em;
   }
 
@@ -141,17 +141,15 @@ div {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .press {
-  width: 60%;
-  height: 100%;
-  font-size: 2em;
+  font-size: 5em;
   }
   h1 {
-  font-size: 2em;
-  margin: 1em;
+  font-size: 5em;
+  margin: 0em;
   margin-top: 0em;
   }
 
   p {
-    font-size: 2.5em;
+    font-size: 4em;
   }
 }

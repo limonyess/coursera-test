@@ -6,6 +6,7 @@ body {
   color: #0A111C;
   font-family: 'Suez One', serif;
   font-family: 'Megrim', cursive;
+  font-family: 'Lato', sans-serif;
   height: 100%;
 }
 
@@ -29,10 +30,11 @@ a:hover {
 }
 
 h1 {
+  font-family: 'Boogaloo', cursive;
   font-size: 4em;
   color: #E7FF7D;
   color: #0D6EFD;
-  color: #34C95A;
+  color: #458F67;
   margin: 0.5em;
 }
 
@@ -41,7 +43,7 @@ p {
   font-size: 4em;
   color: #E7FF7D;
   color: #0A111C;
-  color: #59C273;
+  color: #458F67;
 }
 
 div {

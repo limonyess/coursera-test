@@ -17,6 +17,7 @@ body {
 
 label {
   font-size: 220%;
+  cursor: url("../images/cursor.png"), auto !important;
 }
 
 input {

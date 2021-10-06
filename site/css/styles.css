@@ -22,7 +22,7 @@ label {
 
 input {
   height: 40px;
-  width: 70%;
+  width: 60%;
 }
 
 .le-up input {
@@ -43,8 +43,21 @@ input {
   overflow-y: hidden; 
 }
 
-input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+input[type="checkbox"] { 
   filter: invert(0%) hue-rotate(140deg) brightness(0.8);
+  width: 10%;
+  height: 20px;
+  cursor: url("../images/cursor_p.png"), pointer !important;
+}
+
+input[type="submit"] {
+  cursor: url("../images/cursor_p.png"), pointer !important;
+}
+
+.ri-up input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+  filter: invert(0%) hue-rotate(140deg) brightness(0.8);
+  width: 10%;
+  height: 20px;
 }
 
 a {
@@ -113,7 +126,7 @@ div {
 } 
 
 .ri-up label {
-  font-size: 190%;
+  font-size: 200%;
 }
 
 .logo {
@@ -152,7 +165,7 @@ div {
 .in {
   font-size: 5em;
   margin-top: 0px;
-  margin-bottom: 30%;
+  margin-bottom: 20%;
 }
 
 .up {
@@ -194,10 +207,10 @@ div {
     font-size: 4em;
   }
   label {
-    font-size: 200%;
+    font-size: 180%;
   }
   .ri-up label {
-  font-size: 180%;
+  font-size: 160%;
   }
   .ri {
     text-align: right;
@@ -217,10 +230,6 @@ div {
     text-align: left;
     padding-bottom: 18px;
   } 
-  .le-up input {
-    height: 40px;
-    width: 70%;
-  }
   .ri-up input {
     height: 40px;
     width: 70%;
@@ -237,7 +246,7 @@ div {
   .in {
     font-size: 3.2em;
     margin-top: 0px;
-    margin-bottom: 50%;
+    margin-bottom: 30%;
   }
   .up {
     font-size: 3.2em;
@@ -248,10 +257,10 @@ div {
     font-size: 3em;
   }
   label {
-  font-size: 180%;
+  font-size: 150%;
   }
   .ri-up label {
-  font-size: 180%;
+  font-size: 120%;
   }
   .ri {
   text-align: right;
@@ -303,10 +312,10 @@ div {
     font-size: 4em;
   }
   label {
-  font-size: 200%;
+  font-size: 180%;
   }
   .ri-up label {
-    font-size: 230%;
+    font-size: 150%;
   }
   .ri {
   text-align: right;
@@ -351,7 +360,10 @@ div {
     font-size: 4em;
   }
   label {
-  font-size: 170%;
+  font-size: 150%;
+  }
+  .ri-up label {
+    font-size: 120%;
   }
   .ri {
   text-align: right;

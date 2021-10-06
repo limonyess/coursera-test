@@ -71,20 +71,23 @@ a:hover {
 
 h1 {
   font-family: 'Boogaloo', cursive;
+  font-family: 'Patua One', cursive;
   font-size: 5em;
   color: #E7FF7D;
   color: #0D6EFD;
   color: #458F67;
+  color: white;
   margin-top: 0px;
-  margin-bottom: 30%;
+  margin-bottom: 20%;
 }
 
 
 p {
-  font-size: 4em;
+  font-size: 3.5em;
   color: #E7FF7D;
   color: #0A111C;
   color: #458F67;
+  color: white;
 }
 
 div {
@@ -94,9 +97,10 @@ div {
 .left {
   background-color: #0D6EFD;
   /*background-image: url("../images/logo-06.png");*/
-  background-image: url("../images/natural.png");
   background-color: #34C95A;
-  background-color: #59C273;
+  background-color: #91B1E3;
+  background-color: #91E3E0;
+  background-image: url("../images/star.png");
   background-size: 300px;
   background-repeat: repeat;
 }
@@ -142,6 +146,7 @@ div {
 
 .fifty {
   height: 20%;
+  margin-bottom: 10%;
 }
 
 .press {
@@ -149,6 +154,7 @@ div {
   height: 30%;
   color: #FC2003;
   color: #FC0F03;
+  color: #3476E0;
   margin: 0;
   top: 100%;
   bottom: 0px;
@@ -309,7 +315,7 @@ div {
   }
   p {
     margin-top: 0px;
-    font-size: 4em;
+    font-size: 3.5em;
   }
   label {
   font-size: 180%;

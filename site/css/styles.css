@@ -1,15 +1,37 @@
 html {
   height: 100%;
+  /*cursor: url("../images/cursor.png"), auto !important;*/
+}
+
+html:hover {
+  /*cursor: url("../images/cursor.png"), auto !important;*/
 }
 
 body {
-  color: #0A111C;
+  color: #458F67;
   font-family: 'Suez One', serif;
   font-family: 'Megrim', cursive;
   font-family: 'Lato', sans-serif;
   height: 100%;
 }
 
+label {
+  font-size: 220%;
+}
+
+input {
+  height: 40px;
+  width: 70%;
+}
+
+.le-up input {
+  height: 50px;
+  width: 70%;
+}
+.ri-up input {
+  height: 40px;
+  width: 70%;
+}
 .container-fluid {
   height: 100vh;
   overflow-y: hidden; 
@@ -18,6 +40,10 @@ body {
 .row {
   height: 100vh;
   overflow-y: hidden; 
+}
+
+input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+  filter: invert(0%) hue-rotate(140deg) brightness(0.8);
 }
 
 a {
@@ -31,11 +57,12 @@ a:hover {
 
 h1 {
   font-family: 'Boogaloo', cursive;
-  font-size: 4em;
+  font-size: 5em;
   color: #E7FF7D;
   color: #0D6EFD;
   color: #458F67;
-  margin: 0.5em;
+  margin-top: 0px;
+  margin-bottom: 30%;
 }
 
 
@@ -63,6 +90,30 @@ div {
   background-color: black;
 }
 
+.ri {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.le {
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.ri-up {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.le-up {
+  text-align: left;
+  padding-bottom: 15px;
+} 
+
+.ri-up label {
+  font-size: 190%;
+}
+
 .logo {
   width: 120px;
   height: 100px;
@@ -70,6 +121,8 @@ div {
   color: #0A111C;
   color: #FC0F03;
   text-align: start;
+  cursor: pointer;
+  /*cursor: url("../images/cursor_p.png"), pointer !important;*/
 }
 
 .fifty {
@@ -84,6 +137,7 @@ div {
   margin: 0;
   top: 100%;
   bottom: 0px;
+  /*cursor: url("../images/cursor_p.png"), pointer !important;*/
 }
 
 .press:hover {
@@ -92,6 +146,17 @@ div {
   cursor: pointer;
 }
 
+.in {
+  font-size: 5em;
+  margin-top: 0px;
+  margin-bottom: 30%;
+}
+
+.up {
+  font-size: 5em;
+  margin-top: 0px;
+  margin-bottom: 10%;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -100,12 +165,6 @@ div {
     height: 100%;
     margin-bottom: 0px;
   }
-  h1 {
-    font-size: 5em;
-    margin-top: 0px;
-    margin-bottom: 30%;
-  }
-
   p {
     font-size: 5em;
   }
@@ -117,15 +176,51 @@ div {
     width: 100%;
     height: 100%;
     margin-bottom: 0px;
-}
-  h1 {
+  }
+  .in {
     font-size: 4em;
     margin-top: 0px;
-    margin-bottom: 50%;
+    margin-bottom: 30%;
   }
-
+  .up {
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 20%;
+  }
   p {
     font-size: 4em;
+  }
+  label {
+    font-size: 200%;
+  }
+  .ri-up label {
+  font-size: 180%;
+  }
+  .ri {
+    text-align: right;
+    padding-bottom: 25px;
+  }
+
+  .le {
+    text-align: left;
+    padding-bottom: 25px;
+  }
+  .ri-up {
+    text-align: right;
+    padding-bottom: 15px;
+  }
+
+  .le-up {
+    text-align: left;
+    padding-bottom: 18px;
+  } 
+  .le-up input {
+    height: 40px;
+    width: 70%;
+  }
+  .ri-up input {
+    height: 40px;
+    width: 70%;
   }
 }
 
@@ -136,33 +231,141 @@ div {
     height: 100%;
     margin-bottom: 0px;
   }
-  h1 {
+  .in {
     font-size: 3.2em;
     margin-top: 0px;
-    margin-bottom: 70%;
+    margin-bottom: 50%;
   }
-
+  .up {
+    font-size: 3.2em;
+    margin-top: 0px;
+    margin-bottom: 10%;
+  }
   p {
     font-size: 3em;
   }
+  label {
+  font-size: 180%;
+  }
+  .ri-up label {
+  font-size: 180%;
+  }
+  .ri {
+  text-align: right;
+  padding-bottom: 30px;
+  }
 
+  .le {
+    text-align: left;
+    padding-bottom: 25px;
+  }
+  .ri-up {
+    text-align: right;
+    padding-bottom: 15px;
+  }
+
+  .le-up {
+    text-align: left;
+    padding-bottom: 20px;
+  } 
+  .le-up input {
+    height: 40px;
+    width: 70%;
+  }
+  .ri-up input {
+    height: 30px;
+    width: 70%;
+  }
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (min-width: 371px) and (max-width: 767px) {
   .press {
     width: 100%;
     height: 100%;
     margin-bottom: 0px;
   }
-  h1 {
+  .in {
     font-size: 5em;
     margin-top: 0px;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
+  }
+  .up {
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 10%;
+  }
+  p {
+    margin-top: 0px;
+    font-size: 4em;
+  }
+  label {
+  font-size: 200%;
+  }
+  .ri-up label {
+    font-size: 230%;
+  }
+  .ri {
+  text-align: right;
+  padding-bottom: 25px;
+  }
+
+  .le {
+    text-align: left;
+    padding-bottom: 25px;
+  }
+  .ri-up {
+    text-align: right;
+    padding-bottom: 10px;
+  }
+
+  .le-up {
+    text-align: left;
+    padding-bottom: 15px;
+  } 
+}
+
+/********** Extra extra small devices only **********/
+@media (max-width: 370px) {
+  .press {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+  }
+  .in {
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 20%;
+  }
+  .up {
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 5%;
   }
 
   p {
     margin-top: 0px;
     font-size: 4em;
   }
+  label {
+  font-size: 170%;
+  }
+  .ri {
+  text-align: right;
+  padding-bottom: 30px;
+  }
+
+  .le {
+    text-align: left;
+    padding-bottom: 25px;
+  }
+  .ri-up {
+    text-align: right;
+    padding-bottom: 10px;
+  }
+
+  .le-up {
+    text-align: left;
+    padding-bottom: 15px;
+  } 
 }

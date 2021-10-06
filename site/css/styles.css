@@ -1,10 +1,10 @@
 html {
   height: 100%;
-  /*cursor: url("../images/cursor.png"), auto !important;*/
+  cursor: url("../images/cursor.png"), auto !important;
 }
 
 html:hover {
-  /*cursor: url("../images/cursor.png"), auto !important;*/
+  cursor: url("../images/cursor.png"), auto !important;
 }
 
 body {
@@ -122,7 +122,7 @@ div {
   color: #FC0F03;
   text-align: start;
   cursor: pointer;
-  /*cursor: url("../images/cursor_p.png"), pointer !important;*/
+  cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
 .fifty {
@@ -137,13 +137,14 @@ div {
   margin: 0;
   top: 100%;
   bottom: 0px;
-  /*cursor: url("../images/cursor_p.png"), pointer !important;*/
+  cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
 .press:hover {
   text-decoration: none;
   color: white;
   cursor: pointer;
+  cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
 .in {

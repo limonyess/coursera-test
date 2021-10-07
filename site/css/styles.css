@@ -100,9 +100,14 @@ div {
   background-color: #34C95A;
   background-color: #91B1E3;
   background-color: #91E3E0;
-  background-image: url("../images/brain.jpg");
-  background-size: 600px;
+  background-image: url("../images/star.png");
+  background-size: 620px;
   background-repeat: repeat;
+}
+
+.img-fluid {
+  margin: 0px;
+
 }
 
 .right {

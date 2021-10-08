@@ -12,6 +12,7 @@ body {
   height: 100%;
   width: 100vw;;
   color: #3476E0;
+  color: black;
   font-family: 'Suez One', serif;
   font-family: 'Megrim', cursive;
   font-family: 'Lato', sans-serif;
@@ -80,13 +81,13 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Boogaloo', cursive;
   font-family: 'Patua One', cursive;
-  font-size: 5em;
+  font-family: 'Boogaloo', cursive;
+  font-size: 7em;
   color: #E7FF7D;
   color: #0D6EFD;
   color: #458F67;
-  color: white;
+  color: black;
   margin: 0px;
 }
 
@@ -96,7 +97,7 @@ p {
   color: #E7FF7D;
   color: #0A111C;
   color: #458F67;
-  color: white;
+  color: black;
 }
 
 div {
@@ -122,7 +123,7 @@ div {
 }
 
 .right {
-  background-color: black;
+  background-color: white;
 }
 
 .ri {
@@ -159,7 +160,6 @@ div {
   cursor: pointer;
   cursor: url("../images/cursor_p.png"), pointer !important;
 }
-
 
 .press {
   width: 30%;
@@ -203,8 +203,8 @@ div {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .press {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     margin-bottom: 0px;
   }
   p {

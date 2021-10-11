@@ -211,8 +211,8 @@ div {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .press {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     margin-bottom: 0px;
     margin-top: 20%;
   }
@@ -229,8 +229,8 @@ div {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .press {
-    width: 40%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
     margin-bottom: 0px;
   }
   .in {

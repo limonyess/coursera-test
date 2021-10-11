@@ -10,15 +10,9 @@ html:hover {
 
 body {
   height: 100%;
-  width: 100vw;;
-  color: #3476E0;
+  width: 100%;
   color: black;
-  font-family: 'Suez One', serif;
-  font-family: 'Megrim', cursive;
   font-family: 'Lato', sans-serif;
-}
-
-* {
   box-sizing: border-box;
 }
 
@@ -36,26 +30,13 @@ input {
   width: 60%;
 }
 
-.le-up input {
-  height: 50px;
-  width: 70%;
-}
-.ri-up input {
-  height: 40px;
-  width: 70%;
-}
 .container-fluid {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   overflow-y: hidden; 
 }
 
-.m {
-  height: 100%;
-}
-
 input[type="checkbox"] { 
-  filter: invert(0%) hue-rotate(140deg) brightness(0.8);
   width: 10%;
   height: 20px;
   cursor: url("../images/cursor_p.png"), pointer !important;
@@ -65,15 +46,8 @@ input[type="submit"] {
   cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
-.ri-up input[type="checkbox"] { /* change "blue" browser chrome to yellow */
-  filter: invert(0%) hue-rotate(140deg) brightness(0.8);
-  width: 10%;
-  height: 20px;
-}
-
 a {
   text-decoration: none;
-  padding: 50px 0 50px 0;
 }
 
 a:hover {
@@ -81,25 +55,15 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Patua One', cursive;
   font-family: 'Boogaloo', cursive;
-  font-size: 15em;
-  color: #E7FF7D;
-  color: #0D6EFD;
-  color: #458F67;
-  color: black;
-  color: #98B1C4;
+  font-size: 12em;
   color: #2F4E6F;
   margin: 0px;
-  margin-top: 7%;
+  margin-top: 15%;
 }
-
 
 p {
   font-size: 3.5em;
-  color: #E7FF7D;
-  color: #0A111C;
-  color: #458F67;
   color: black;
 }
 
@@ -107,110 +71,45 @@ div {
   text-align: center;
 }
 
-.pos {
+.menu-items-container {
   width: 50%;
-  margin-left: 10%;
-  margin-right: 10%;
   margin: 5%;
 }
 
-
-.left {
-  /*background-image: url("../images/logo-06.png");*/
+.menu-left {
   background-color: #2F4E6F;
-  /*background-image: url("../images/baa2-04.png");*/
   padding: 0px;
-  height: 100%;
+  height: 100vh;
 }
 
-.main {
-  height: 100%;
-}
-
-.right {
+.menu-right {
   background-color: white;
-  height: 100%;
+  height: 100vh;
 }
 
-.ri {
-  text-align: right;
-  padding-bottom: 20px;
-}
-
-.le {
-  text-align: left;
-  padding-bottom: 25px;
-}
-
-.ri-up {
-  text-align: right;
-  padding-bottom: 20px;
-}
-
-.le-up {
-  text-align: left;
-  padding-bottom: 15px;
-} 
-
-.ri-up label {
-  font-size: 200%;
-}
-
-.logo {
-  width: 120px;
-  height: 100px;
-  font-size: 5em;
-  color: #0A111C;
-  color: #FC0F03;
-  text-align: start;
-  cursor: pointer;
-  cursor: url("../images/cursor_p.png"), pointer !important;
-}
-
-.press {
+.menu-item {
   width: 30%;
   height: 30%;
-  color: #FC2003;
-  color: #FC0F03;
-  color: #3476E0;
-  color: #2F4E6F;
   color: #98B1C4;
   margin: 0px;
   top: 100%;
-  bottom: 0px;
-  border-width: 5px;
-  border-color: black;
   cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
-.press:hover {
+.menu-item:hover {
   text-decoration: none;
-  color: #98B1C4;
   color: #2F4E6F;
-  cursor: pointer;
   cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
-.in {
-  font-size: 5em;
-  margin-top: 0px;
-  margin-bottom: 20%;
+.align-right {
+  text-align: right;
+  padding-right: 20%;
 }
-
-.up {
-  font-size: 5em;
-  margin-top: 0px;
-  margin-bottom: 10%;
-}
-
-.i {
-  padding-left: 5%;
-}
-
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .press {
+  .menu-item {
     width: 50%;
     height: 50%;
     margin-bottom: 0px;
@@ -219,80 +118,44 @@ div {
   p {
     font-size: 3em;
   }
-  .pos {
+  .menu-items-container {
     position:absolute;
-    right:0;
+    right: 0;
     bottom:0;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .press {
-    width: 45%;
-    height: 45%;
+  .menu-item {
+    width: 60%;
+    height: 60%;
     margin-bottom: 0px;
   }
-  .in {
-    font-size: 4em;
-    margin-top: 0px;
-  }
-  .up {
-    font-size: 4em;
-    margin-top: 0px;
-  }
+
   p {
     font-size: 3em;
   }
   label {
     font-size: 180%;
   }
-  .ri-up label {
-  font-size: 160%;
-  }
-  .ri {
-    text-align: right;
-    padding-bottom: 25px;
-  }
 
-  .le {
-    text-align: left;
-    padding-bottom: 25px;
-  }
-  .ri-up {
-    text-align: right;
-    padding-bottom: 15px;
-  }
-
-  .le-up {
-    text-align: left;
-    padding-bottom: 18px;
-  } 
-  .ri-up input {
-    height: 40px;
-    width: 70%;
-  }
-  .pos {
+  .menu-items-container {
     position:absolute;
     right:0;
     bottom:0;
+  }
+  h1 {
+    font-size: 10em;
   }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .press {
-    width: 40%;
-    height: 40%;
+  .menu-item {
+    width: 65%;
+    height: 65%;
     margin-bottom: 0px;
-  }
-  .in {
-    font-size: 3.2em;
-    margin-top: 0px;
-  }
-  .up {
-    font-size: 3.2em;
-    margin-top: 0px;
   }
   p {
     font-size: 3em;
@@ -300,60 +163,29 @@ div {
   label {
   font-size: 150%;
   }
-  .ri-up label {
-  font-size: 120%;
-  }
-  .ri {
-  text-align: right;
-  padding-bottom: 30px;
-  }
 
-  .le {
-    text-align: left;
-    padding-bottom: 25px;
-  }
-  .ri-up {
-    text-align: right;
-    padding-bottom: 15px;
-  }
-
-  .le-up {
-    text-align: left;
-    padding-bottom: 20px;
-  } 
-  .le-up input {
-    height: 40px;
-    width: 70%;
-  }
-  .ri-up input {
-    height: 30px;
-    width: 70%;
-  }
-  .pos {
+  .menu-items-container {
     position:absolute;
     right:0;
     bottom:0;
+  }
+  h1 {
+    font-size: 10em;
   }
 }
 
 /********** Extra small devices only **********/
 @media (min-width: 371px) and (max-width: 767px) {
   h1 {
-    margin-top: 50%;
+    font-size: 8em;
+    margin-top: 35%;
   }
-  .press {
-    width: 40%;
-    height: 40%;
+  .menu-item {
+    width: 60%;
+    height: 60%;
     margin-bottom: 0px;
   }
-  .in {
-    font-size: 5em;
-    margin-top: 0px;
-  }
-  .up {
-    font-size: 5em;
-    margin-top: 0px;
-  }
+
   p {
     margin-top: 0px;
     font-size: 3em;
@@ -361,30 +193,10 @@ div {
   label {
   font-size: 180%;
   }
-  .ri-up label {
-    font-size: 150%;
-  }
-  .ri {
-  text-align: right;
-  padding-bottom: 25px;
-  }
 
-  .le {
-    text-align: left;
-    padding-bottom: 25px;
-  }
-  .ri-up {
-    text-align: right;
-    padding-bottom: 10px;
-  }
-
-  .le-up {
-    text-align: left;
-    padding-bottom: 15px;
-  } 
-  .pos {
+  .menu-items-container {
     margin: 0px;
-    margin-top: 15%;
+    margin-top: 5%;
     width: 100%;
   }
 }
@@ -392,20 +204,13 @@ div {
 /********** Extra extra small devices only **********/
 @media (max-width: 370px) {
   h1 {
-    margin-top: 50%;
+    font-size: 6em;
+    margin-top: 30%;
   }
-  .press {
-    width: 40%;
-    height: 40%;
+  .menu-item {
+    width: 60%;
+    height: 60%;
     margin-bottom: 0px;
-  }
-  .in {
-    font-size: 5em;
-    margin-top: 0px;
-  }
-  .up {
-    font-size: 5em;
-    margin-top: 0px;
   }
 
   p {
@@ -415,28 +220,8 @@ div {
   label {
   font-size: 150%;
   }
-  .ri-up label {
-    font-size: 120%;
-  }
-  .ri {
-  text-align: right;
-  padding-bottom: 30px;
-  }
 
-  .le {
-    text-align: left;
-    padding-bottom: 25px;
-  }
-  .ri-up {
-    text-align: right;
-    padding-bottom: 10px;
-  }
-
-  .le-up {
-    text-align: left;
-    padding-bottom: 15px;
-  } 
-  .pos {
+  .menu-items-container {
     margin: 0px;
     margin-top: 15%;
     width: 100%;

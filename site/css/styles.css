@@ -17,8 +17,9 @@ body {
 }
 
 label {
-  font-size: 220%;
+  font-size: 160%;
   cursor: url("../images/cursor.png"), auto !important;
+  margin-bottom: 10px;
 }
 
 svg {
@@ -28,22 +29,16 @@ svg {
 input {
   height: 40px;
   width: 60%;
+  padding: 0px;
 }
 
-.container-fluid {
-  height: 100vh;
-  width: 100vw;
-  overflow-y: hidden; 
-}
-
-input[type="checkbox"] { 
-  width: 10%;
-  height: 20px;
+button {
   cursor: url("../images/cursor_p.png"), pointer !important;
-}
-
-input[type="submit"] {
-  cursor: url("../images/cursor_p.png"), pointer !important;
+  height: 30%;
+  width: 50%;
+  font-size: 3em !important;
+  margin-top: 2%;
+  text-align: center;
 }
 
 a {
@@ -59,11 +54,11 @@ h1 {
   font-size: 12em;
   color: #2F4E6F;
   margin: 0px;
-  margin-top: 15%;
+  margin-top: 2%;
 }
 
 p {
-  font-size: 3.5em;
+  font-size: 150%;
   color: black;
 }
 
@@ -73,7 +68,13 @@ div {
 
 .menu-items-container {
   width: 50%;
-  margin: 5%;
+  margin: 0% 2% 2% 2%;
+}
+
+.container-fluid {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden; 
 }
 
 .menu-left {
@@ -102,26 +103,37 @@ div {
   cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
-.align-right {
-  text-align: right;
-  padding-right: 20%;
+.menu-item-title {
+  font-size: 3em;
+}
+
+.welcome {
+  margin-top: 12%;
+}
+.error {
+  font-size: 0.75em;
 }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+  p {
+    font-size: 150%;
+    margin-bottom: 0px;
+  }
   .menu-item {
     width: 50%;
     height: 50%;
     margin-bottom: 0px;
     margin-top: 20%;
   }
-  p {
-    font-size: 3em;
-  }
   .menu-items-container {
     position:absolute;
     right: 0;
     bottom:0;
+  }
+  .align-right {
+  text-align: right;
+  padding-right: 20%;
   }
 }
 
@@ -134,10 +146,11 @@ div {
   }
 
   p {
-    font-size: 3em;
+    font-size: 150%;
+    margin-bottom: 0px;
   }
   label {
-    font-size: 180%;
+    font-size: 130%;
   }
 
   .menu-items-container {
@@ -147,6 +160,11 @@ div {
   }
   h1 {
     font-size: 10em;
+    margin-top: 5%;
+  }
+  .align-right {
+  text-align: right;
+  padding-right: 20%;
   }
 }
 
@@ -158,10 +176,11 @@ div {
     margin-bottom: 0px;
   }
   p {
-    font-size: 3em;
+    font-size: 150%;
+    margin-bottom: 0px;
   }
   label {
-  font-size: 150%;
+  font-size: 110%;
   }
 
   .menu-items-container {
@@ -170,15 +189,27 @@ div {
     bottom:0;
   }
   h1 {
-    font-size: 10em;
+    font-size: 8em;
+    margin-top: 2%;
+  }
+  button {
+    width: 60%;
+  }
+  .align-right {
+  text-align: right;
+  padding-right: 10%;
+  }
+
+  input {
+    height: 35px;
   }
 }
 
 /********** Extra small devices only **********/
 @media (min-width: 371px) and (max-width: 767px) {
   h1 {
-    font-size: 8em;
-    margin-top: 35%;
+    font-size: 7em;
+    margin-top: 2%;
   }
   .menu-item {
     width: 60%;
@@ -187,17 +218,31 @@ div {
   }
 
   p {
-    margin-top: 0px;
-    font-size: 3em;
+    margin-bottom: 0px;
+    font-size: 150%;
   }
   label {
-  font-size: 180%;
+    font-size: 180%;
   }
 
+  input {
+    height: 35px;
+    width: 100%;
+  }
+  .align-right {
+    text-align: center;
+    padding-right: 0px;
+  }
   .menu-items-container {
     margin: 0px;
-    margin-top: 5%;
     width: 100%;
+  }
+
+  button {
+    width: 70%;
+  }
+  .welcome {
+  margin-top: 45%;
   }
 }
 
@@ -205,7 +250,7 @@ div {
 @media (max-width: 370px) {
   h1 {
     font-size: 6em;
-    margin-top: 30%;
+    margin-top: 2%;
   }
   .menu-item {
     width: 60%;
@@ -213,17 +258,32 @@ div {
     margin-bottom: 0px;
   }
 
+  input {
+    height: 35px;
+    width: 100%;
+    text-align: center;
+  }
+  .align-right {
+    text-align: center;
+    padding-right: 0px;
+  }
   p {
-    margin-top: 0px;
-    font-size: 3em;
+    margin-bottom: 0px;
+    font-size: 150%;
   }
   label {
   font-size: 150%;
+  text-align: center;
   }
 
   .menu-items-container {
     margin: 0px;
-    margin-top: 15%;
     width: 100%;
+  }
+  button {
+    width: 80%;
+  }
+  .welcome {
+  margin-top: 45%;
   }
 }

@@ -1,3 +1,4 @@
+<?php include('server.php') ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,7 +11,6 @@
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Lato&display=swap" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
@@ -24,17 +24,28 @@
         <div class="col-12 col-md-7 menu-right">
 
           <div>
-            <div><h1>Sign up</h1></div>
+            <div><h1>Sign in</h1></div>
           </div>
 
           <div class="row menu-items-container">
 
             <div class="col">
-              <div class="align-right"><label for="name">Name</label><input type="text" id="name" name="name"></div>
-              <div class="align-right"><label for="user">User</label><input type="text" id="user" name="user"></div>
-              <div class="align-right"><label for="password">Password</label><input type="text" id="password" name="password"></div>
-              <div class="align-right"><input type="checkbox" id="checkbox" name="checkbox"><label for="checkbox">Remember password</label></div>
-              <div class="align-right"><input type="submit" value="Submit"></div>
+
+              <form method="post" action="login.php">
+                <?php include('errors.php'); ?>
+                <div class="align-right">
+                  <label>Username</label>
+                  <input type="text" name="username" >
+                </div>
+                <div class="align-right">
+                  <label>Password</label>
+                  <input type="password" name="password">
+                </div>
+                <div class="align-right">
+                  <button type="submit" class="btn border border-5 border-dark" name="login_user">Login</button>
+                </div>
+              </form>
+              
             </div>
 
           </div>

@@ -1,3 +1,4 @@
+<?php include('server.php') ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -24,20 +25,36 @@
         <div class="col-12 col-md-7 menu-right">
 
           <div>
-            <div><h1>Sign in</h1></div>
+            <div><h1>Sign up</h1></div>
           </div>
 
           <div class="row menu-items-container">
 
             <div class="col">
-              <div class="align-right"><label for="user">User</label><input type="text" id="user" name="user"></div>
-              <div class="align-right"><label for="password">Password</label><input type="text" id="password" name="password"></div>
-              <div class="align-right"><input type="checkbox" id="checkbox" name="checkbox"><label for="checkbox">Remember password</label></div>
-              <div class="align-right"><input type="submit" value="Submit"></div>
+              <form method="post" action="register.php">
+                <?php include('errors.php'); ?>
+                <div class="align-right">
+                  <label>Username</label>
+                  <input type="text" name="username">
+                </div>
+                <div class="align-right">
+                  <label>Email</label>
+                  <input type="email" name="email">
+                </div>
+                <div class="align-right">
+                  <label>Password</label>
+                  <input type="password" name="password_1">
+                </div>
+                <div class="align-right">
+                  <label>Confirm password</label>
+                  <input type="password" name="password_2">
+                </div>
+                <div class="align-right">
+                  <button type="submit" class="btn border border-5 border-dark" name="reg_user">Register</button>
+                </div>
+              </form>
             </div>
-
           </div>
-
         </div>
 
       </div>

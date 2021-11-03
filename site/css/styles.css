@@ -78,6 +78,10 @@ div {
   overflow-y: hidden; 
 }
 
+.container {
+  margin: 0;
+}
+
 .menu-left {
   background-color: #2F4E6F;
   padding: 0px;
@@ -122,6 +126,26 @@ div {
 .logo-nav {
   width: 40px;
   height: 40px;
+}
+
+.homepage-title {
+  font-size: 800%;
+  text-align: center;
+}
+
+.homepage-image {
+  width: 25%;
+  position:absolute;
+  right: 0;
+  bottom:0;
+}
+
+.nav-link {
+  font-size: 25px;
+}
+
+.dropdown-item{
+  font-size: 25px;
 }
 
 /********** Large devices only **********/

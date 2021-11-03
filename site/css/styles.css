@@ -78,10 +78,6 @@ div {
   overflow-y: hidden; 
 }
 
-.container {
-  width: 100vw;
-}
-
 .menu-left {
   background-color: #2F4E6F;
   padding: 0px;
@@ -114,6 +110,10 @@ div {
 
 .menu-item-title {
   font-size: 3em;
+}
+
+.homepage-item-title {
+  font-size: 2em;
 }
 
 .welcome {

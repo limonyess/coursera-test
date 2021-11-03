@@ -79,7 +79,7 @@ div {
 }
 
 .container {
-  margin: 0;
+  width: 100vw;
 }
 
 .menu-left {
@@ -146,6 +146,12 @@ div {
 
 .dropdown-item{
   font-size: 25px;
+}
+
+.homepage-button {
+  margin: 10px;
+  text-align: center;
+  background-color: #98B1C4;
 }
 
 /********** Large devices only **********/

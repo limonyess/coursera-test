@@ -113,7 +113,7 @@ div {
 }
 
 .homepage-item-title {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .welcome {
@@ -152,6 +152,20 @@ div {
   margin: 10px;
   text-align: center;
   background-color: #98B1C4;
+}
+
+.homepage-item {
+  width: 150px;
+  margin-bottom: 0px;
+  margin-top: 20%;
+  color: #98B1C4;  
+  top: 100%;
+  cursor: url("../images/cursor_p.png"), pointer !important;
+}
+.homepage-item:hover {
+  text-decoration: none;
+  color: #2F4E6F;
+  cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
 /********** Large devices only **********/

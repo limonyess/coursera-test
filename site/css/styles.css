@@ -168,6 +168,12 @@ div {
   cursor: url("../images/cursor_p.png"), pointer !important;
 }
 
+.entry {
+  height: 50vh;
+  width: 50vw;
+  font-size: 200%;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   p {

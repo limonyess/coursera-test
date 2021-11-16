@@ -1,0 +1,5 @@
+Como se puede observar en los resultados obtenidos la velocidad del caudal varía en función de los diámetros, a este aumento o reducción de la velocidad le
+corresponde una reducción o aumento de la presión, respectivamente. Cabe destacar que el coeficiente de resistencia a la expansión súbita (difusor) es mayor al
+de contracción súbita (tobera), esto es porque la aceleración de un fluido (disminución del diámetro) causa menos turbulencia que la desaceleración. Encontramos
+que la diferencia de presiones en el difusor es negativa, se debe a que la segunda sección de la tubería aumenta su diámetro y por lo tanto aumenta la presión con 
+respecto a la primera sección. Ocurre el caso contrario con la tobera.

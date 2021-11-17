@@ -28,21 +28,11 @@ class Header extends HTMLElement {
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Physical challenge
+                Challenges
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="walk.html">Walk</a></li>
-                <li><a class="dropdown-item" href="yoga.html">Yoga</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Mental challenge
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="memory.html">Memory</a></li>
-                <li><a class="dropdown-item" href="math.html">Math</a></li>
-                <li><a class="dropdown-item" href="trivia.html">Trivia</a></li>
+                <li><a class="dropdown-item" href="physical.html">Physical</a></li>
+                <li><a class="dropdown-item" href="mental.html">Mental</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">

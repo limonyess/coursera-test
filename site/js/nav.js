@@ -15,7 +15,7 @@ class Header extends HTMLElement {
         <button class="navbar-toggler menu-button" href="homepage.html" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse left" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" href="homepage.html" aria-current="page">Home</a>
@@ -63,7 +63,23 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark footer">
+      <div class="container">
+        <div class="row">
+          <ul class="navbar-nav">
+            <li class="nav-item col-8">
+              <a class="nav-link" href="about.html" aria-current="page">About Us</a>
+            </li>
+            <li class="nav-item col-8">
+              <a class="nav-link" href="homepage.html" aria-current="page">Privacy Policy</a>
+            </li>
+            <li class="nav-item col-8">
+              <a class="nav-link" href="homepage.html" aria-current="page">&copy;2021 Treelephant </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
      `;
   }
 }

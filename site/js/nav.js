@@ -10,7 +10,7 @@ class Header extends HTMLElement {
           <div class="container">
               
           <a class="navbar-brand">
-            <img src="https://limonyess.github.io/coursera-test/site/images/happy_face.png" alt="" class="logo-nav">
+            <img src="https://limonyess.github.io/coursera-test/site/images/LOGOLONG-03.png" alt="" class="logo-nav">
           </a>
           <button class="navbar-toggler menu-button" href="homepage.html" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

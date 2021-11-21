@@ -185,10 +185,11 @@ div {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
+  margin-top: 4%;
 }
 
 .left {
@@ -199,6 +200,10 @@ div {
 
 .center {
   text-align: center;
+}
+
+.main {
+  margin-bottom: 50px;
 }
 
 /********** Large devices only **********/
@@ -272,14 +277,17 @@ div {
   label {
   font-size: 110%;
   }
-
+  .homepage-title {
+    font-size: 700%;
+    text-align: center;
+  }
   .menu-items-container {
     position:absolute;
     right:0;
     bottom:0;
   }
   h1 {
-    font-size: 8em;
+    font-size: 7em;
     margin-top: 2%;
   }
   button {
@@ -301,7 +309,7 @@ div {
 /********** Extra small devices only **********/
 @media (min-width: 371px) and (max-width: 767px) {
   h1 {
-    font-size: 7em;
+    font-size: 6em;
     margin-top: 2%;
   }
   .menu-item {
@@ -309,7 +317,10 @@ div {
     height: 60%;
     margin-bottom: 0px;
   }
-
+  .homepage-title {
+    font-size: 600%;
+    text-align: center;
+  }
   p {
     margin-bottom: 0px;
     font-size: 150%;
@@ -353,7 +364,10 @@ div {
     height: 60%;
     margin-bottom: 0px;
   }
-
+  .homepage-title {
+    font-size: 500%;
+    text-align: center;
+  }
   input {
     height: 35px;
     width: 100%;

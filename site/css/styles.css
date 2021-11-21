@@ -182,14 +182,19 @@ div {
   height: 50vh;
   width: 60vw;
   font-size: 200%;
+  margin-top: 2%;
 }
 
 .footer {
   position: relative;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  margin-top: 4%;
+  margin-top: 5%;
+}
+
+.history {
+  font-size: 200%;
+  margin-top: 2%;
+  text-align: left;
 }
 
 .left {
@@ -202,9 +207,7 @@ div {
   text-align: center;
 }
 
-.main {
-  margin-bottom: 50px;
-}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
